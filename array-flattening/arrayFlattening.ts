@@ -1,5 +1,5 @@
 class Flattening {
-    public static result: Array<any> = [];
+    private static result: Array<any> = [];
     public static flatArray(arr: Array<any>): Array<any> {
         for (let data of arr) {
             if (Array.isArray(data)) {
