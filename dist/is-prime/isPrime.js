@@ -12,7 +12,7 @@ var NumberUtils = /** @class */ (function () {
     };
     return NumberUtils;
 }());
-var sampleUtilsData = 22;
+var sampleUtilsData = 23;
 var NumberUtilsResult = NumberUtils.isPrime(sampleUtilsData);
 console.log(NumberUtilsResult);
 //# sourceMappingURL=isPrime.js.map
