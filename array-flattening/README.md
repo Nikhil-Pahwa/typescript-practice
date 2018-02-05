@@ -1,0 +1,1 @@
+## Flattening of an array
