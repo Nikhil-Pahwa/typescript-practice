@@ -3,7 +3,7 @@ var StringUtils = /** @class */ (function () {
     }
     StringUtils.isPalindrome = function (palindromeString) {
         var isPalindrome = true;
-        palindromeString = palindromeString.split(' ').join('');
+        palindromeString = palindromeString.split(' ').join(''); // Remove the white space.
         for (var i = 0; i < Math.floor(palindromeString.length / 2); i++) {
             if (palindromeString.charAt(i) !== palindromeString.charAt(palindromeString.length - i - 1)) {
                 isPalindrome = false;
