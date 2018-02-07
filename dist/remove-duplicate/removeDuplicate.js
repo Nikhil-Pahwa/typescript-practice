@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var ArrayUtils = /** @class */ (function () {
     function ArrayUtils() {
     }
@@ -24,6 +26,7 @@ var ArrayUtils = /** @class */ (function () {
     ArrayUtils.result = [];
     return ArrayUtils;
 }());
+exports.ArrayUtils = ArrayUtils;
 var sampleData = [1, 3, 5, 6, 1, 3, 4, 6];
 var result = ArrayUtils.removeDuplicate(sampleData);
 console.log(result);
