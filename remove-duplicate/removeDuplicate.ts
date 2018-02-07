@@ -28,3 +28,5 @@ class ArrayUtils {
 let sampleData: number[] = [1, 3, 5, 6, 1, 3, 4, 6];
 const result = ArrayUtils.removeDuplicate(sampleData);
 console.log(result);
+
+export { ArrayUtils };
